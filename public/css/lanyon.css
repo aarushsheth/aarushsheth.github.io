@@ -41,11 +41,13 @@ body {
 }
 
 html {
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", Palatino, Garamond,
+Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", Palatino, Garamond,
+Times, serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -148,7 +150,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Crimson Text", Palatino, Garamond,
+Times, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -531,6 +534,31 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Steel */
+.theme-base-0s .sidebar,
+.theme-base-0s .sidebar-toggle:active,
+.theme-base-0s #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #4a7b9d;
+}
+.theme-base-0s .container a,
+.theme-base-0s .sidebar-toggle,
+.theme-base-0s .related-posts li a:hover {
+  color: #4a7b9d;
+}
+
+/* Nice Green */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active,
+.theme-base-0g #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #096b72;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+  color: #096b72;
+}
+
 
 
 /*
