@@ -9,6 +9,6 @@ title: What's TestingFile?
 
 It's an immensely useful tool and one we encourage you to use here with Lanyon.
 
-$\int_0^1 x^4$
+$$\int_0^1 x^4$$
 
 Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
