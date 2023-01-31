@@ -1,7 +1,6 @@
 ---
 layout: post
 title: political affiliation is an eigenvector problem
-summary: *on optimizing network modularity*
 ---
 
 ### *on optimizing network modularity*
