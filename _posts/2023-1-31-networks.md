@@ -39,7 +39,9 @@ between them. We want divide the network into a
 collection of groups, identified with some characteristic, such that nodes are comparatively likely 
 to be connected to other nodes inside their group, 
 and comparatively dislikely 
-to be connected to  nodes outside their group.
+to be connected to  nodes outside their group. This purpose 
+of this post is to describe a clever way of doing 
+so(in $O((m+n)\log(n)$ time!)
 
 
 [^1]:https://arxiv.org/pdf/2204.07436.pdf
