@@ -6,7 +6,7 @@ title: political affiliation is an eigenvector problem
 
 <p align="center">
 <figure>
-<img src="/images/largenetwork.png" alt="isolated"/>
+<img src="/images/largenetwork.webp" alt="isolated"/>
     <figcaption></figcaption>
 </figure>
 </p>
