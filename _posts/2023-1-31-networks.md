@@ -45,7 +45,7 @@ of this post is to describe a clever way of doing
 so(in $O((m+n)\log(n)$ time!)
 
 
-[^1]:https://arxiv.org/pdf/2204.07436.pdf
-[^2]:https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828
-[^3]:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430217/
-[^4]:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099108/#B30
+[^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
+[^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
+[^3]:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430217/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430217/</a>
+[^4]:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099108/#B30">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099108/#B30</a>
