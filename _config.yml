@@ -6,6 +6,8 @@ url:                 https://aarushsheth.github.io
 baseurl:             '/'
 paginate:            5
 permalink:           pretty
+toc: true
+toc_sticky: true
 
 # About/contact
 author:
