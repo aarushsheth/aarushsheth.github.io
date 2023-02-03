@@ -52,8 +52,8 @@ to solve it in $O(n\log(n)$ time!
 ## Modularity
 
 Take an arbitrary graph whose nodes are each identified by 
-some finite set $i=\{1,2,3,...\}$. We say that the graph 
-is assortative provided that we expect that nodes of the 
+some finite set $n=\{1,2,3,...\}$. We say that the graph 
+is assortative provided that nodes of the 
 same type are relatively likely to be connected compared 
 to nodes of some different type. For example, consider a
 graph of people, where a connection represents familiarity 
@@ -77,9 +77,9 @@ clearly natural groups which form.
 
 We can measure the modularity of a graph through the following process:
 
-1. If edges were randomly selected, what percent of total edges would 
-we expect to be between nodes of the same type?
-2. What percent of total edges are actually between nodes of the same type?
+1. If edges were randomly selected, find the percent of total edges we 
+would expect to be between nodes of the same type
+2. Find what percent of total edges are actually between nodes of the same 
 3. Subtract the actual value from the expected value
 
 Recall that for a graph with $n$ vertices, we define its adjacency matrix $A$ as an $n \times n$ matrix where 
@@ -121,14 +121,64 @@ and divide by the total number of edges $m$:
 
 $$\frac{1}{2m} \sum_{ij} (A_{ij} - \frac{k_ik_j}{2m}) \delta_{g_ig_j} $$ 
 
-To make our lifes easier, we can rewrite this expression by defining a new quantity.
+## Cleaning
+
+Now that we have a method for finding the modularity of an 
+arbitrary graph, we move onto maximizing it. Before doing so, 
+however, we would like to rewrite the modularity formula in a 
+more convivient form. Let us suppose that there are only 
+two groups, $1$ and $2$.
+
+Then, we will define two new quantities, $B_{ij}$ and $s_i$:
 
 $$ B_{ij} = (A_{ij} - \frac{k_ik_j}{2m}) $$
+$$s_i = 1 \text{ if i is in group 1} $$
+$$\text{ }  =  -1 \text { if i is in group 2} $$  
 
-note that 
+Note that:
+
+$$\sum_{i} B _{ij} = \sum_{i} A_{ij} - (\sum_{i}k_i)\frac{k_j}{2m} $$
+$$= k_j - \frac{2m*k_j}{2m} $$
+$$ = 0$$
+$$\sum_{j} B _{ij} = \sum_{j} A_{ij} - (\sum_{j}k_j)\frac{k_i}{2m} $$
+$$= k_i - \frac{2m*k_i}{2m} $$
+$$ = 0$$
+$$\sum_{ij} B_{ij} = 0 $$
+
+Furthermore:
+
+$$ \delta_{g_ig_j} = \frac{1}{2}(s_is_j+1)$$
+
+We can therefore rewrite our modularity formula as follows:
+
+$$ \frac{1}{4m} \sum_{ij} B_{ij}(s_is_j+1) $$
+$$ = \frac{1}{4m} \sum_{ij} B_{ij}s_is_j $$
 
 ## Optimization
 
+At long last, we can finally discuss how to find the 
+maximum modularity of our graph. We can precisely state 
+our optimization problem as follows:
+
+$$ \text{Optimize:}  \sum_{ij} B_{ij}s_is_j$$
+$$ \text{Subject to: } s_i,s_j = \pm 1 $$
+
+
+
+We call this class of problems *discrete optimization problems*.
+Given $n$ groups, we can represent the possible solutions as the 
+corners of an $n$-dimensional hypercube
+
+
+
+
+
+<p align="center">
+<figure>
+<img src="/images/solutions.png" alt="network"/>
+    
+</figure>
+</p>
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
