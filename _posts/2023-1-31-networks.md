@@ -121,10 +121,11 @@ and divide by the total number of edges $m$:
 
 $$\frac{1}{2m} \sum_{ij} (A_{ij} - \frac{k_ik_j}{2m}) \delta_{g_ig_j} $$ 
 
-We can clean this expression up by defining two quantities:
+To make our lifes easier, we can rewrite this expression by defining a new quantity.
 
 $$ B_{ij} = (A_{ij} - \frac{k_ik_j}{2m}) $$
 
+note that 
 
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
