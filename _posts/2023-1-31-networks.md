@@ -138,11 +138,17 @@ $$\text{ }  =  -1 \text { if i is in group 2} $$
 Note that:
 
 $$\sum_{i} B _{ij} = \sum_{i} A_{ij} - (\sum_{i}k_i)\frac{k_j}{2m} $$
+
 $$= k_j - \frac{2m*k_j}{2m} $$
+
 $$ = 0$$
+
 $$\sum_{j} B _{ij} = \sum_{j} A_{ij} - (\sum_{j}k_j)\frac{k_i}{2m} $$
+
 $$= k_i - \frac{2m*k_i}{2m} $$
+
 $$ = 0$$
+
 $$\sum_{ij} B_{ij} = 0 $$
 
 Furthermore:
@@ -152,6 +158,7 @@ $$ \delta_{g_ig_j} = \frac{1}{2}(s_is_j+1)$$
 We can therefore rewrite our modularity formula as follows:
 
 $$ \frac{1}{4m} \sum_{ij} B_{ij}(s_is_j+1) $$
+
 $$ = \frac{1}{4m} \sum_{ij} B_{ij}s_is_j $$
 
 ## Optimization
@@ -160,7 +167,8 @@ At long last, we can finally discuss how to find the
 maximum modularity of our graph. We can precisely state 
 our optimization problem as follows:
 
-$$ \text{Optimize:}  \sum_{ij} B_{ij}s_is_j$$
+$$ \text{Maximize:}  \sum_{ij} B_{ij}s_is_j$$
+
 $$ \text{Subject to: } s_i,s_j = \pm 1 $$
 
 
@@ -175,7 +183,7 @@ corners of an $n$-dimensional hypercube
 
 <p align="center">
 <figure>
-<img src="/images/solutions.png" alt="network"/>
+<img src="../images/solutions.svg" alt="network"/>
     
 </figure>
 </p>
