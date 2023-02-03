@@ -64,7 +64,7 @@ characteristic would be the language they speak.
 
 <p align="center">
 <figure>
-<img src="../images/badgraphs.png" alt="network"/>
+<img src="/images/badgraphs.png" alt="network"/>
     <figcaption>These two graphs are identical, but labeling and rerrangement makes its divisons clear</figcaption>
 </figure>
 </p>
