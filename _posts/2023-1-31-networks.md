@@ -2,6 +2,7 @@
 layout: post
 title: political affiliation is an eigenvector problem
 ---
+$\require{\tikzcd}$
 
 ### *on optimizing network modularity*
 
@@ -49,6 +50,23 @@ modularity maximization, is NP-complete[^5].
 of this post is to describe a clever heuristic 
 to solve it in $O(n\log(n)$ time!
 
+## Modularity
+
+Take an arbitrary graph whose nodes are each identified by 
+some finite set $i=\{1,2,3,...\}$. We say that the graph 
+is assortative provided that we expect that nodes of the 
+same type are relatively likely to be connected compared 
+to nodes of some different type. 
+
+\[
+\begin{tikzcd}
+                            & English \arrow[d, no head]                     &                                                 &                                                & Arabic \\
+English \arrow[ru, no head] & English \arrow[rdd, no head]                   &                                                 & Arabic \arrow[rd, no head] \arrow[ru, no head] &        \\
+                            &                                                &                                                 &                                                & Arabic \\
+                            & Chinese \arrow[d, no head] \arrow[rd, no head] & Chinese \arrow[d, no head] \arrow[ruu, no head] &                                                &        \\
+                            & Chinese \arrow[ru, no head]                    & Chinese                                         &                                                &       
+\end{tikzcd}
+\]
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
