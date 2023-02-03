@@ -183,7 +183,7 @@ corners of an $n$-dimensional hypercube
 
 <p align="center">
 <figure>
-<img src="../images/solutions.svg" alt="network"/>
+<img src="/images/solutions.svg" alt="network"/>
     
 </figure>
 </p>
