@@ -121,7 +121,7 @@ and divide by the total number of edges $m$:
 
 $$\frac{1}{2m} \sum_{ij} (A_{ij} - \frac{k_ik_j}{2m}) \delta_{g_ig_j} $$ 
 
-## Cleaning
+## Housekeeping
 
 Now that we have a method for finding the modularity of an 
 arbitrary graph, we move onto maximizing it. Before doing so, 
@@ -187,6 +187,33 @@ corners of an $n$-dimensional hypercube
     
 </figure>
 </p>
+
+
+While there are  methods for discrete optimization problems, 
+they tend to be painfully slow. While this is a mere annoyance in 
+certain cases, in this case, when  we are potientially dealing with graphs with 
+millions of nodes, they become useless. As such, we have to use 
+alternate methods. One natural step is to simply relax our 
+constraints. 
+If we think about $\bf{s}$ as a vector, we can simply enforce 
+that it has a magnitude of $\sqrt{n}$ and let its direction vary continuously. Then, our possible solutions become points on 
+an n-dimensional sphere. While we are no longer guaranteed an exact solution, 
+this gets us a foot in the door. 
+
+<p align="center">
+<figure>
+<img src="/images/relaxed.svg" alt="network"/>
+    
+</figure>
+</p>
+
+
+$$ \text{Maximize:}  \sum_{ij} B_{ij}s_is_j$$
+
+$$ \text{Subject to: } \sum s_i^n = \pm 1 $$
+
+
+
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
