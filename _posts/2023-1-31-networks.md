@@ -2,7 +2,6 @@
 layout: post
 title: political affiliation is an eigenvector problem
 ---
-$\require{\tikzcd}$
 
 ### *on optimizing network modularity*
 
@@ -56,17 +55,27 @@ Take an arbitrary graph whose nodes are each identified by
 some finite set $i=\{1,2,3,...\}$. We say that the graph 
 is assortative provided that we expect that nodes of the 
 same type are relatively likely to be connected compared 
-to nodes of some different type. 
+to nodes of some different type. For example, consider a
+graph of people, where a connection represents familiarty 
+between two individuals. One potiential assortative 
+characteristic would be the language they speak.
 
-\[
-\begin{tikzcd}
-                            & English \arrow[d, no head]                     &                                                 &                                                & Arabic \\
-English \arrow[ru, no head] & English \arrow[rdd, no head]                   &                                                 & Arabic \arrow[rd, no head] \arrow[ru, no head] &        \\
-                            &                                                &                                                 &                                                & Arabic \\
-                            & Chinese \arrow[d, no head] \arrow[rd, no head] & Chinese \arrow[d, no head] \arrow[ruu, no head] &                                                &        \\
-                            & Chinese \arrow[ru, no head]                    & Chinese                                         &                                                &       
-\end{tikzcd}
-\]
+
+
+<p align="center">
+<figure>
+<img src="../images/badgraphs.png" alt="network"/>
+    <figcaption>These two graphs are identical, but labeling and rerrangement makes its divisons clear</figcaption>
+</figure>
+</p>
+
+
+Not all English speakers talk to each other 
+and some Chinese speakers speak to Arabic speakers, so 
+none of the boundaries are absolute - and yet, there are 
+clearly natural groups which form. 
+
+
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
