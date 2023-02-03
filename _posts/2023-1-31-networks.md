@@ -191,8 +191,8 @@ corners of an $n$-dimensional hypercube.
 
 While there are exact methods for discrete optimization problems, 
 they tend to be painfully slow. While this is a mere annoyance in 
-certain cases, in this case, when  we are potientially dealing with graphs with 
-millions of nodes, they become useless. As such, we have to resort to approximatins. One natural step is to simply relax our 
+certain cases, in this case, when  we are potentially dealing with graphs with 
+millions of nodes, they become useless. As such, we have to resort to approximations. One natural step is to  relax our 
 constraints. 
 If we think about $\bf{s}$ as a vector, we can simply enforce 
 that it has a magnitude of $\sqrt{n}$ and let its direction vary continuously. Then, our possible solutions become points on 
@@ -210,9 +210,35 @@ Our new task is to:
 
 $$ \text{Maximize:}  \sum_{ij} B_{ij}s_is_j$$
 
-$$ \text{Subject to: } \sum s_i^n = \pm 1 $$
+$$ \text{Subject to: } \sum s_i^2 = n $$
 
+Taking the Lagrangian, we get:
 
+$$ \mathcal{L} = \sum_{jk} B_{ij}s_js_k + \lambda(n- \sum s_j^n) = 0 $$
+
+$$ \frac{\partial}{\partial s_i}(\mathcal{L}) = \sum_j B_{ij}S_j - \lambda s_i $$
+
+$$\sum_j B_{ij}s_j = \lambda s_i $$
+
+If we think of $B_{ij}$ as a matrix and $s$ as a vector, this becomes:
+
+$$ \bf{Bv} = \lambda \bf{v}$$
+
+Therefore, the optimal sorting is contained in one of the eigenvectors 
+of the modularity matrix!!
+
+To the find the particular eigenvalue, we need to solve for $\lambda$:
+
+$$ \sum_{ij} B_{ij}s_is_j = \bf{B} \sum_{i}s_i^2 = n\lambda $$
+
+Because the modularity increases with the eigenvalue, and 
+we are maximizing the modularity,
+we therefore want to select the eigenvector corresponding to the largest positive eigenvalue. Recall that this eigenvector is some 
+point on the $n$-hypersphere, so it may not be a valid solution 
+to our actual problem. To find a valid solution, choose the vector *on the hypercube* whose angle is closest to our eigenvector(i.e, the 
+vector who when dotted with the eigenvector has the greatest value).
+
+In summary, **everything is an eigenvector problem**.
 
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
