@@ -127,6 +127,8 @@ $$ B_{ij} = (A_{ij} - \frac{k_ik_j}{2m}) $$
 
 note that 
 
+## Optimization
+
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
