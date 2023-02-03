@@ -36,7 +36,7 @@ and drugs?[^4]
 Note that the task in all of these problems 
 is fundamentally the same - we have network of nodes, 
 and a collection of edges
-between them. We want sort the network into a 
+between them. We want sort to the network into a 
 collection of groups, identified with some characteristic, such that nodes within a group are more likely 
 to be connected to each other, 
 and less likely 
@@ -44,10 +44,10 @@ to be connected to  nodes outside their group. To do so, first, we must find a w
 good a particular sorting is, and then, we must find the 
 optimal sorting.
 Unfortunately, this task, known as 
-modularity maximization, turns out to be NP-complete[^5].
+modularity maximization, is NP-complete[^5].
  This purpose 
 of this post is to describe a clever heuristic 
-to solve it in $O((m+n)\log(n)$ time!
+to solve it in $O(n\log(n)$ time!
 
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
