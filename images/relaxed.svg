@@ -45,10 +45,10 @@
     </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="-153.71313 : 7.8214269 : 1"
+       inkscape:vp_x="-153.5249 : 8.5743596 : 1"
        inkscape:vp_y="12.217 : 999.92539 : 0"
-       inkscape:vp_z="145.81509 : -4.3574748 : 1"
-       inkscape:persp3d-origin="32.211948 : -53.508235 : 1"
+       inkscape:vp_z="146.00332 : -3.6045421 : 1"
+       inkscape:persp3d-origin="32.400181 : -52.755302 : 1"
        id="perspective794" />
   </defs>
   <g
@@ -59,7 +59,7 @@
     <g
        sodipodi:type="inkscape:box3d"
        id="g1149"
-       style="fill:none;stroke:#000000;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0;opacity:0.36888889"
+       style="opacity:0.368889;fill:none;stroke:#000000;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
        inkscape:perspectiveID="#perspective794"
        inkscape:corner0="0.19882143 : 0.066520524 : 0 : 1"
        inkscape:corner7="-0.12782136 : 0.13957443 : 0.4807351 : 1">
@@ -68,146 +68,146 @@
          id="path1161"
          style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="11"
-         d="m 98.818133,213.551 47.542707,0.0962 0.65969,-53.99343 -47.671007,10.40457 z"
-         points="146.36084,213.64715 147.02053,159.65372 99.349523,170.05829 98.818133,213.551 " />
+         d="m 99.006364,212.79806 47.542706,0.0962 0.65969,-53.99343 -47.671006,10.40457 z"
+         points="146.54907,212.89422 147.20876,158.90079 99.537754,169.30536 99.006364,212.79806 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1151"
          style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="6"
-         d="m 57.669955,208.82689 0.744481,-60.93356 40.935087,22.16496 -0.53139,43.49271 z"
-         points="58.414436,147.89333 99.349523,170.05829 98.818133,213.551 57.669955,208.82689 " />
+         d="m 57.858188,208.07396 0.744481,-60.93356 40.935085,22.16496 -0.53139,43.4927 z"
+         points="58.602669,147.1404 99.537754,169.30536 99.006364,212.79806 57.858188,208.07396 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1159"
          style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="13"
-         d="m 58.414436,147.89333 58.615984,-24.44053 29.99011,36.20092 -47.671007,10.40457 z"
-         points="117.03042,123.4528 147.02053,159.65372 99.349523,170.05829 58.414436,147.89333 " />
+         d="m 58.602669,147.1404 58.615981,-24.44053 29.99011,36.20092 -47.671006,10.40457 z"
+         points="117.21865,122.69987 147.20876,158.90079 99.537754,169.30536 58.602669,147.1404 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1153"
          style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="5"
-         d="m 57.669955,208.82689 58.337165,-1.62008 30.35372,6.44034 -47.542707,-0.0962 z"
-         points="116.00712,207.20681 146.36084,213.64715 98.818133,213.551 57.669955,208.82689 " />
+         d="m 57.858188,208.07396 58.337162,-1.62009 30.35372,6.44035 -47.542706,-0.0962 z"
+         points="116.19535,206.45387 146.54907,212.89422 99.006364,212.79806 57.858188,208.07396 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1157"
          style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="14"
-         d="m 116.00712,207.20681 1.0233,-83.75401 29.99011,36.20092 -0.65969,53.99343 z"
-         points="117.03042,123.4528 147.02053,159.65372 146.36084,213.64715 116.00712,207.20681 " />
+         d="m 116.19535,206.45387 1.0233,-83.754 29.99011,36.20092 -0.65969,53.99343 z"
+         points="117.21865,122.69987 147.20876,158.90079 146.54907,212.89422 116.19535,206.45387 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1155"
          style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:1.999;stroke-linejoin:round;stroke-dasharray:1.999, 1.999;stroke-dashoffset:0"
          inkscape:box3dsidetype="3"
-         d="m 57.669955,208.82689 58.337165,-1.62008 1.0233,-83.75401 -58.615984,24.44053 z"
-         points="116.00712,207.20681 117.03042,123.4528 58.414436,147.89333 57.669955,208.82689 " />
+         d="m 57.858188,208.07396 58.337162,-1.62009 1.0233,-83.754 -58.615981,24.44053 z"
+         points="116.19535,206.45387 117.21865,122.69987 58.602669,147.1404 57.858188,208.07396 " />
     </g>
     <g
        inkscape:label="WireframeSphere"
-       transform="translate(107.28527,168.73398)"
+       transform="matrix(0.92548751,0,0,0.92371137,102.3912,170.14572)"
        id="g21880"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#020000;stroke-opacity:1;fill-rule:nonzero">
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-opacity:1">
       <g
          inkscape:label="Lines of Longitude"
          id="g21822"
-         style="fill:none;fill-opacity:1;stroke:#020000;stroke-opacity:1;fill-rule:nonzero">
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-opacity:1">
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21794"
            cx="0"
            cy="0"
            rx="52.113743"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21796"
            cx="0"
            cy="0"
            rx="52.851887"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21798"
            cx="0"
            cy="0"
            rx="50.939865"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21800"
            cx="0"
            cy="0"
            rx="46.473557"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21802"
            cx="0"
            cy="0"
            rx="39.676922"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21804"
            cx="0"
            cy="0"
            rx="30.89077"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21806"
            cx="0"
            cy="0"
            rx="20.555676"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21808"
            cx="0"
            cy="0"
            rx="9.1898823"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21810"
            cx="0"
            cy="0"
            rx="2.6386781"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21812"
            cx="0"
            cy="0"
            rx="14.332974"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21814"
            cx="0"
            cy="0"
            rx="25.308607"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21816"
            cx="0"
            cy="0"
            rx="35.015209"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21818"
            cx="0"
            cy="0"
            rx="42.966053"
            ry="52.916668" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21820"
            cx="0"
            cy="0"
@@ -217,184 +217,184 @@
       <g
          inkscape:label="Lines of Latitude"
          id="g21876"
-         style="fill:none;fill-opacity:1;stroke:#020000;stroke-opacity:1;fill-rule:nonzero">
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-opacity:1">
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21824"
            cx="0"
            cy="52.558865"
            rx="6.14325"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21826"
            cx="0"
            cy="51.490292"
            rx="12.203424"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21828"
            cx="0"
            cy="49.725403"
            rx="18.098566"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21830"
            cx="0"
            cy="47.288059"
            rx="23.748957"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21832"
            cx="0"
            cy="44.211231"
            rx="29.078184"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21834"
            cx="0"
            cy="40.536518"
            rx="34.014179"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21836"
            cx="0"
            cy="36.313622"
            rx="38.490189"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21838"
            cx="0"
            cy="31.599642"
            rx="42.445686"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21840"
            cx="0"
            cy="26.458334"
            rx="45.827179"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21842"
            cx="0"
            cy="20.959221"
            rx="48.588936"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21844"
            cx="0"
            cy="15.176671"
            rx="50.693611"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21846"
            cx="0"
            cy="9.1888828"
            rx="52.112743"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21848"
            cx="0"
            cy="3.0768306"
            rx="52.827141"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21850"
            cx="0"
            cy="-3.0768306"
            rx="52.827141"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21852"
            cx="0"
            cy="-9.1888828"
            rx="52.112743"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21854"
            cx="0"
            cy="-15.176671"
            rx="50.693611"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21856"
            cx="0"
            cy="-20.959221"
            rx="48.588936"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21858"
            cx="0"
            cy="-26.458334"
            rx="45.827179"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21860"
            cx="0"
            cy="-31.599642"
            rx="42.445686"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21862"
            cx="0"
            cy="-36.313622"
            rx="38.490189"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21864"
            cx="0"
            cy="-40.536518"
            rx="34.014179"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21866"
            cx="0"
            cy="-44.211231"
            rx="29.078184"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21868"
            cx="0"
            cy="-47.288059"
            rx="23.748957"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21870"
            cx="0"
            cy="-49.725403"
            rx="18.098566"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21872"
            cx="0"
            cy="-51.490292"
            rx="12.203424"
            ry="0.001" />
         <ellipse
-           style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
            id="path21874"
            cx="0"
            cy="-52.558865"
@@ -402,7 +402,7 @@
            ry="0.001" />
       </g>
       <circle
-         style="fill:none;fill-opacity:1;stroke:#020000;stroke-width:0.264583;stroke-opacity:1;fill-rule:nonzero"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#020000;stroke-width:0.264583;stroke-opacity:1"
          id="path21878"
          cx="0"
          cy="0"
