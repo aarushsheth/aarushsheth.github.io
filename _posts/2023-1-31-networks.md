@@ -24,7 +24,7 @@ fine-tun your recommendations to them?[^2]
 
 * You have a protein-protein interaction network. Can you 
 find polypeptide chains which are responsible for 
-generating some biological process? [^3]
+generating a certain biological process? [^3]
 
 * You have a database of drug-gene interactions. Can you find
 pharacological pathways by looking at clusters of genes 
@@ -34,18 +34,24 @@ and drugs?[^4]
 
 
 Note that the task in all of these problems 
-is fundamentally the same - you have network of nodes, 
+is fundamentally the same - we have network of nodes, 
 and a collection of edges
-between them. We want divide the network into a 
-collection of groups, identified with some characteristic, such that nodes are comparatively likely 
-to be connected to other nodes inside their group, 
-and comparatively dislikely 
-to be connected to  nodes outside their group. This purpose 
-of this post is to describe a clever way of doing 
-so(in $O((m+n)\log(n)$ time!)
+between them. We want sort the network into a 
+collection of groups, identified with some characteristic, such that nodes within a group are more likely 
+to be connected to each other, 
+and less likely 
+to be connected to  nodes outside their group. To do so, first, we must find a way of measuring how 
+good a particular sorting is, and then, we must find the 
+optimal sorting.
+Unfortunately, this task, known as 
+modularity maximization, turns out to be NP-complete[^5].
+ This purpose 
+of this post is to describe a clever heuristic 
+to solve it in $O((m+n)\log(n)$ time!
 
 
 [^1]:<a href="https://arxiv.org/pdf/2204.07436.pdf">https://arxiv.org/pdf/2204.07436.pdf</a>
 [^2]:<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7363828</a>
 [^3]:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430217/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8430217/</a>
 [^4]:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099108/#B30">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099108/#B30</a>
+[^5]:<a href="hhttps://arxiv.org/pdf/physics/0608255.pdf">https://arxiv.org/pdf/physics/0608255.pdf</a>
