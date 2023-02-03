@@ -175,7 +175,7 @@ $$ \text{Subject to: } s_i,s_j = \pm 1 $$
 
 We call this class of problems *discrete optimization problems*.
 Given $n$ groups, we can represent the possible solutions as the 
-corners of an $n$-dimensional hypercube
+corners of an $n$-dimensional hypercube.
 
 
 
@@ -189,11 +189,10 @@ corners of an $n$-dimensional hypercube
 </p>
 
 
-While there are  methods for discrete optimization problems, 
+While there are exact methods for discrete optimization problems, 
 they tend to be painfully slow. While this is a mere annoyance in 
 certain cases, in this case, when  we are potientially dealing with graphs with 
-millions of nodes, they become useless. As such, we have to use 
-alternate methods. One natural step is to simply relax our 
+millions of nodes, they become useless. As such, we have to resort to approximatins. One natural step is to simply relax our 
 constraints. 
 If we think about $\bf{s}$ as a vector, we can simply enforce 
 that it has a magnitude of $\sqrt{n}$ and let its direction vary continuously. Then, our possible solutions become points on 
@@ -207,6 +206,7 @@ this gets us a foot in the door.
 </figure>
 </p>
 
+Our new task is to:
 
 $$ \text{Maximize:}  \sum_{ij} B_{ij}s_is_j$$
 
